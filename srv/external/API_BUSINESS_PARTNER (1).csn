@@ -4,14 +4,14 @@
   },
   "$version": "2.0",
   "definitions": {
-    "API_BUSINESS_PARTNER": {
+    "API_BUSINESS_PARTNER__1_": {
       "kind": "service",
       "@cds.external": true,
       "@m.IsDefaultEntityContainer": "true",
       "@sap.message.scope.supported": "true",
       "@sap.supported.formats": "atom json xlsx"
     },
-    "API_BUSINESS_PARTNER.A_AddressEmailAddress": {
+    "API_BUSINESS_PARTNER__1_.A_AddressEmailAddress": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -70,7 +70,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_AddressFaxNumber": {
+    "API_BUSINESS_PARTNER__1_.A_AddressFaxNumber": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -143,7 +143,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_AddressHomePageURL": {
+    "API_BUSINESS_PARTNER__1_.A_AddressHomePageURL": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -216,7 +216,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_AddressPhoneNumber": {
+    "API_BUSINESS_PARTNER__1_.A_AddressPhoneNumber": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -296,7 +296,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPAddrDepdntIntlLocNumber": {
+    "API_BUSINESS_PARTNER__1_.A_BPAddrDepdntIntlLocNumber": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -343,7 +343,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPContactToAddress": {
+    "API_BUSINESS_PARTNER__1_.A_BPContactToAddress": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -670,7 +670,7 @@
         "to_EmailAddress": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressEmailAddress",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressEmailAddress",
           "cardinality": {
             "max": "*"
           },
@@ -679,7 +679,7 @@
         "to_FaxNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressFaxNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressFaxNumber",
           "cardinality": {
             "max": "*"
           },
@@ -688,7 +688,7 @@
         "to_MobilePhoneNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
           },
@@ -697,7 +697,7 @@
         "to_PhoneNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
           },
@@ -706,7 +706,7 @@
         "to_URLAddress": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressHomePageURL",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressHomePageURL",
           "cardinality": {
             "max": "*"
           },
@@ -714,7 +714,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPContactToFuncAndDept": {
+    "API_BUSINESS_PARTNER__1_.A_BPContactToFuncAndDept": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -813,7 +813,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPCreditWorthiness": {
+    "API_BUSINESS_PARTNER__1_.A_BPCreditWorthiness": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -928,7 +928,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPFinancialServicesExtn": {
+    "API_BUSINESS_PARTNER__1_.A_BPFinancialServicesExtn": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1152,7 +1152,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPFinancialServicesReporting": {
+    "API_BUSINESS_PARTNER__1_.A_BPFinancialServicesReporting": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1370,7 +1370,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPFiscalYearInformation": {
+    "API_BUSINESS_PARTNER__1_.A_BPFiscalYearInformation": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1623,7 +1623,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BPRelationship": {
+    "API_BUSINESS_PARTNER__1_.A_BPRelationship": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1741,7 +1741,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BuPaAddressUsage": {
+    "API_BUSINESS_PARTNER__1_.A_BuPaAddressUsage": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1801,7 +1801,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BuPaIdentification": {
+    "API_BUSINESS_PARTNER__1_.A_BuPaIdentification": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1880,7 +1880,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BuPaIndustry": {
+    "API_BUSINESS_PARTNER__1_.A_BuPaIndustry": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -1926,7 +1926,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartner": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartner": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -2395,19 +2395,19 @@
         "to_BPCreditWorthiness": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPCreditWorthiness",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPCreditWorthiness",
           "keys": []
         },
         "to_BPFinServicesReporting": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPFinancialServicesReporting",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPFinancialServicesReporting",
           "keys": []
         },
         "to_BPFiscalYearInformation": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPFiscalYearInformation",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPFiscalYearInformation",
           "cardinality": {
             "max": "*"
           },
@@ -2416,7 +2416,7 @@
         "to_BPRelationship": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPRelationship",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPRelationship",
           "cardinality": {
             "max": "*"
           },
@@ -2425,7 +2425,7 @@
         "to_BuPaIdentification": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BuPaIdentification",
+          "target": "API_BUSINESS_PARTNER__1_.A_BuPaIdentification",
           "cardinality": {
             "max": "*"
           },
@@ -2434,7 +2434,7 @@
         "to_BuPaIndustry": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BuPaIndustry",
+          "target": "API_BUSINESS_PARTNER__1_.A_BuPaIndustry",
           "cardinality": {
             "max": "*"
           },
@@ -2443,13 +2443,13 @@
         "to_BusinessPartner": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPFinancialServicesExtn",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPFinancialServicesExtn",
           "keys": []
         },
         "to_BusinessPartnerAddress": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusinessPartnerAddress",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusinessPartnerAddress",
           "cardinality": {
             "max": "*"
           },
@@ -2458,7 +2458,7 @@
         "to_BusinessPartnerBank": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusinessPartnerBank",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusinessPartnerBank",
           "cardinality": {
             "max": "*"
           },
@@ -2467,7 +2467,7 @@
         "to_BusinessPartnerContact": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusinessPartnerContact",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusinessPartnerContact",
           "cardinality": {
             "max": "*"
           },
@@ -2476,7 +2476,7 @@
         "to_BusinessPartnerRating": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusinessPartnerRating",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusinessPartnerRating",
           "cardinality": {
             "max": "*"
           },
@@ -2485,7 +2485,7 @@
         "to_BusinessPartnerRole": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusinessPartnerRole",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusinessPartnerRole",
           "cardinality": {
             "max": "*"
           },
@@ -2494,7 +2494,7 @@
         "to_BusinessPartnerTax": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusinessPartnerTaxNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusinessPartnerTaxNumber",
           "cardinality": {
             "max": "*"
           },
@@ -2503,7 +2503,7 @@
         "to_BusPartAddrDepdntTaxNmbr": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BusPartAddrDepdntTaxNmbr",
+          "target": "API_BUSINESS_PARTNER__1_.A_BusPartAddrDepdntTaxNmbr",
           "cardinality": {
             "max": "*"
           },
@@ -2512,18 +2512,18 @@
         "to_Customer": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_Customer",
+          "target": "API_BUSINESS_PARTNER__1_.A_Customer",
           "keys": []
         },
         "to_Supplier": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_Supplier",
+          "target": "API_BUSINESS_PARTNER__1_.A_Supplier",
           "keys": []
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartnerAddress": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartnerAddress": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -2812,7 +2812,7 @@
         "to_AddressUsage": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BuPaAddressUsage",
+          "target": "API_BUSINESS_PARTNER__1_.A_BuPaAddressUsage",
           "cardinality": {
             "max": "*"
           },
@@ -2821,13 +2821,13 @@
         "to_BPAddrDepdntIntlLocNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPAddrDepdntIntlLocNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPAddrDepdntIntlLocNumber",
           "keys": []
         },
         "to_EmailAddress": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressEmailAddress",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressEmailAddress",
           "cardinality": {
             "max": "*"
           },
@@ -2836,7 +2836,7 @@
         "to_FaxNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressFaxNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressFaxNumber",
           "cardinality": {
             "max": "*"
           },
@@ -2845,7 +2845,7 @@
         "to_MobilePhoneNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
           },
@@ -2854,7 +2854,7 @@
         "to_PhoneNumber": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
           },
@@ -2863,7 +2863,7 @@
         "to_URLAddress": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_AddressHomePageURL",
+          "target": "API_BUSINESS_PARTNER__1_.A_AddressHomePageURL",
           "cardinality": {
             "max": "*"
           },
@@ -2871,7 +2871,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartnerBank": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartnerBank": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3003,7 +3003,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartnerContact": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartnerContact": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3067,7 +3067,7 @@
         "to_ContactAddress": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPContactToAddress",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPContactToAddress",
           "cardinality": {
             "max": "*"
           },
@@ -3076,12 +3076,12 @@
         "to_ContactRelationship": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPContactToFuncAndDept",
+          "target": "API_BUSINESS_PARTNER__1_.A_BPContactToFuncAndDept",
           "keys": []
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartnerRating": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartnerRating": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3166,7 +3166,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartnerRole": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartnerRole": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3211,7 +3211,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusinessPartnerTaxNumber": {
+    "API_BUSINESS_PARTNER__1_.A_BusinessPartnerTaxNumber": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3257,7 +3257,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_BusPartAddrDepdntTaxNmbr": {
+    "API_BUSINESS_PARTNER__1_.A_BusPartAddrDepdntTaxNmbr": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3311,7 +3311,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustAddrDepdntExtIdentifier": {
+    "API_BUSINESS_PARTNER__1_.A_CustAddrDepdntExtIdentifier": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3345,7 +3345,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustAddrDepdntInformation": {
+    "API_BUSINESS_PARTNER__1_.A_CustAddrDepdntInformation": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3395,7 +3395,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_Customer": {
+    "API_BUSINESS_PARTNER__1_.A_Customer": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -3744,7 +3744,7 @@
         "to_CustAddrDepdntExtIdentifier": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustAddrDepdntExtIdentifier",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustAddrDepdntExtIdentifier",
           "cardinality": {
             "max": "*"
           },
@@ -3753,7 +3753,7 @@
         "to_CustAddrDepdntInformation": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustAddrDepdntInformation",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustAddrDepdntInformation",
           "cardinality": {
             "max": "*"
           },
@@ -3762,7 +3762,7 @@
         "to_CustomerCompany": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerCompany",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerCompany",
           "cardinality": {
             "max": "*"
           },
@@ -3771,7 +3771,7 @@
         "to_CustomerSalesArea": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerSalesArea",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerSalesArea",
           "cardinality": {
             "max": "*"
           },
@@ -3780,7 +3780,7 @@
         "to_CustomerTaxGrouping": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerTaxGrouping",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerTaxGrouping",
           "cardinality": {
             "max": "*"
           },
@@ -3789,7 +3789,7 @@
         "to_CustomerText": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerText",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerText",
           "cardinality": {
             "max": "*"
           },
@@ -3798,7 +3798,7 @@
         "to_CustomerUnloadingPoint": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerUnloadingPoint",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerUnloadingPoint",
           "cardinality": {
             "max": "*"
           },
@@ -3807,7 +3807,7 @@
         "to_CustUnldgPtAddrDepdntInfo": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustUnldgPtAddrDepdntInfo",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustUnldgPtAddrDepdntInfo",
           "cardinality": {
             "max": "*"
           },
@@ -3815,7 +3815,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerCompany": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerCompany": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4052,7 +4052,7 @@
         "to_CompanyText": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerCompanyText",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerCompanyText",
           "cardinality": {
             "max": "*"
           },
@@ -4061,7 +4061,7 @@
         "to_CustomerDunning": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerDunning",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerDunning",
           "cardinality": {
             "max": "*"
           },
@@ -4070,7 +4070,7 @@
         "to_WithHoldingTax": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerWithHoldingTax",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerWithHoldingTax",
           "cardinality": {
             "max": "*"
           },
@@ -4078,7 +4078,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerCompanyText": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerCompanyText": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4131,7 +4131,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerDunning": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerDunning": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4222,7 +4222,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerSalesArea": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerSalesArea": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4616,7 +4616,7 @@
         "to_PartnerFunction": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustSalesPartnerFunc",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustSalesPartnerFunc",
           "cardinality": {
             "max": "*"
           },
@@ -4625,7 +4625,7 @@
         "to_SalesAreaTax": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerSalesAreaTax",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerSalesAreaTax",
           "cardinality": {
             "max": "*"
           },
@@ -4634,7 +4634,7 @@
         "to_SalesAreaText": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustomerSalesAreaText",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustomerSalesAreaText",
           "cardinality": {
             "max": "*"
           },
@@ -4643,7 +4643,7 @@
         "to_SlsAreaAddrDepdntInfo": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustSlsAreaAddrDepdntInfo",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustSlsAreaAddrDepdntInfo",
           "cardinality": {
             "max": "*"
           },
@@ -4651,7 +4651,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerSalesAreaTax": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerSalesAreaTax": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4721,7 +4721,7 @@
         "to_SlsAreaAddrDepdntTax": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_CustSlsAreaAddrDepdntTaxInfo",
+          "target": "API_BUSINESS_PARTNER__1_.A_CustSlsAreaAddrDepdntTaxInfo",
           "cardinality": {
             "max": "*"
           },
@@ -4729,7 +4729,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerSalesAreaText": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerSalesAreaText": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4798,7 +4798,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerTaxGrouping": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerTaxGrouping": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4866,7 +4866,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerText": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerText": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -4911,7 +4911,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerUnloadingPoint": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerUnloadingPoint": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5096,7 +5096,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustomerWithHoldingTax": {
+    "API_BUSINESS_PARTNER__1_.A_CustomerWithHoldingTax": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5202,7 +5202,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustSalesPartnerFunc": {
+    "API_BUSINESS_PARTNER__1_.A_CustSalesPartnerFunc": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5312,7 +5312,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustSlsAreaAddrDepdntInfo": {
+    "API_BUSINESS_PARTNER__1_.A_CustSlsAreaAddrDepdntInfo": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5430,7 +5430,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustSlsAreaAddrDepdntTaxInfo": {
+    "API_BUSINESS_PARTNER__1_.A_CustSlsAreaAddrDepdntTaxInfo": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5507,7 +5507,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_CustUnldgPtAddrDepdntInfo": {
+    "API_BUSINESS_PARTNER__1_.A_CustUnldgPtAddrDepdntInfo": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5701,7 +5701,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_Supplier": {
+    "API_BUSINESS_PARTNER__1_.A_Supplier": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -5982,7 +5982,7 @@
         "to_SupplierCompany": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierCompany",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierCompany",
           "cardinality": {
             "max": "*"
           },
@@ -5991,7 +5991,7 @@
         "to_SupplierPurchasingOrg": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierPurchasingOrg",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierPurchasingOrg",
           "cardinality": {
             "max": "*"
           },
@@ -6000,7 +6000,7 @@
         "to_SupplierText": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierText",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierText",
           "cardinality": {
             "max": "*"
           },
@@ -6008,7 +6008,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierCompany": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierCompany": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6275,7 +6275,7 @@
         "to_CompanyText": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierCompanyText",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierCompanyText",
           "cardinality": {
             "max": "*"
           },
@@ -6284,13 +6284,13 @@
         "to_Supplier": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_Supplier",
+          "target": "API_BUSINESS_PARTNER__1_.A_Supplier",
           "keys": []
         },
         "to_SupplierDunning": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierDunning",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierDunning",
           "cardinality": {
             "max": "*"
           },
@@ -6299,7 +6299,7 @@
         "to_SupplierWithHoldingTax": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierWithHoldingTax",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierWithHoldingTax",
           "cardinality": {
             "max": "*"
           },
@@ -6307,7 +6307,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierCompanyText": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierCompanyText": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6360,7 +6360,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierDunning": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierDunning": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6451,7 +6451,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierPartnerFunc": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierPartnerFunc": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6546,7 +6546,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierPurchasingOrg": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierPurchasingOrg": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6821,7 +6821,7 @@
         "to_PartnerFunction": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierPartnerFunc",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierPartnerFunc",
           "cardinality": {
             "max": "*"
           },
@@ -6830,7 +6830,7 @@
         "to_PurchasingOrgText": {
           "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_SupplierPurchasingOrgText",
+          "target": "API_BUSINESS_PARTNER__1_.A_SupplierPurchasingOrgText",
           "cardinality": {
             "max": "*"
           },
@@ -6838,7 +6838,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierPurchasingOrgText": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierPurchasingOrgText": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6892,7 +6892,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierText": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierText": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
@@ -6937,7 +6937,7 @@
         }
       }
     },
-    "API_BUSINESS_PARTNER.A_SupplierWithHoldingTax": {
+    "API_BUSINESS_PARTNER__1_.A_SupplierWithHoldingTax": {
       "kind": "entity",
       "@cds.external": true,
       "@cds.persistence.skip": true,
