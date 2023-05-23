@@ -39,3 +39,6 @@ If you wish to contribute code, offer fixes or improvements, please send a pull 
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+
+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 // git-hub password 
+bb80d0a656b2152cd6e812c68ae8ed157ffcc0c857e1348dd6cd7eb2d1ab10ce // web_hook credentials 

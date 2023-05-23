@@ -72,7 +72,7 @@ resources:
           # <-- add this
           redirect-uris:
             - https://e9345f6ftrial-trial-2-9ry5qoue-dev-2-1-risk-management.cfapps.us10-001.hana.ondemand.com/login/callback
-
+            - https:///login/callback
   - name: risk-management-db
     type: com.sap.xs.hdi-container
     parameters:
